@@ -1,0 +1,10 @@
+{
+	"name": "cloud-developer-basics-firestore-trigger",
+	"version": "0.0.1",
+	"dependencies": {
+		"firebase-admin": "^8.7.0",
+		"firebase-functions": "^3.3.0",
+		"firebase-tools": "^7.6.2",
+		"@google-cloud/storage": "^3.0.2"
+	}
+}

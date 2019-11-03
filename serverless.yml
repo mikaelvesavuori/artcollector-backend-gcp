@@ -1,0 +1,21 @@
+service:
+  name: artcollector-backend-gcp
+
+plugins:
+  - serverless-google-cloudfunctions
+
+provider:
+  name: google
+  runtime: nodejs10
+  region: europe-west1 # OPTIONAL: Edit if you want
+  project: {PROJECT_ID} # EDIT THIS to your value
+  credentials: ~/.gcloud/{KEYFILE}.json # EDIT THIS to your value
+  memorySize: 256
+  timeout: 10s
+
+functions:
+  api:
+    handler: api
+    events:
+      - http: api
+        method: POST
