@@ -8,8 +8,8 @@ provider:
   name: google
   runtime: nodejs10
   region: europe-west1 # OPTIONAL: Edit if you want
-  project: {PROJECT_ID} # EDIT THIS to your value
-  credentials: ~/.gcloud/{KEYFILE}.json # EDIT THIS to your value
+  project: cloud-developer-basics # EDIT THIS to your value; {PROJECT_ID}
+  credentials: ~/.gcloud/keyfile-cloud-developer-basics.json # EDIT THIS to your value; {KEYFILE}
   memorySize: 256
   timeout: 10s
 

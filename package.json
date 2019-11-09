@@ -5,8 +5,12 @@
 		"node": "10"
 	},
 	"description": "Serverless backend for ArtCollector (GCP) demo app",
-	"author": "",
-	"main": "functions/index.js",
+	"author": "Mikael Vesavuori",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikaelvesavuori/artcollector-backend-gcp.git"
+	},
 	"license": "ISC",
 	"devDependencies": {
 		"eslint": "^6.5.0",
