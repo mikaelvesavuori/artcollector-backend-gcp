@@ -1,34 +1,40 @@
 {
-	"name": "artcollector-backend-gcp",
-	"version": "1.0.0",
-	"engines": {
-		"node": "10"
-	},
-	"description": "Serverless backend for ArtCollector (GCP) demo app",
-	"author": "Mikael Vesavuori",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mikaelvesavuori/artcollector-backend-gcp.git"
-	},
-	"license": "ISC",
-	"devDependencies": {
-		"eslint": "^6.5.0",
-		"eslint-config-prettier": "^6.10.0",
-		"eslint-plugin-security": "^1.4.0",
-		"prettier": "^1.18.2",
-		"prettier-eslint": "^9.0.0"
-	},
-	"dependencies": {
-		"@google-cloud/pubsub": "^1.1.5",
-		"apollo-server-cloud-functions": "^2.10.0",
-		"firebase-admin": "^8.9.2",
-		"firebase-functions": "^3.3.0",
-		"firebase-tools": "^7.6.2",
-		"graphql": "^14.5.8",
-		"graphql-type-json": "^0.3.0",
-		"node-fetch": "^2.6.0",
-		"serverless-google-cloudfunctions": "^2.3.3",
-		"uuid": "^3.3.3"
-	}
+  "name": "artcollector-backend-gcp",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10"
+  },
+  "description": "Serverless backend for ArtCollector (GCP) demo app",
+  "author": "Mikael Vesavuori",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelvesavuori/artcollector-backend-gcp.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^1.1.5",
+    "apollo-server-cloud-functions": "^2.10.0",
+    "firebase-admin": "^8.9.2",
+    "firebase-functions": "^3.3.0",
+    "firebase-tools": "^7.6.2",
+    "graphql": "^14.5.8",
+    "graphql-type-json": "^0.3.0",
+    "node-fetch": "^2.6.0",
+    "serverless-google-cloudfunctions": "^2.3.3",
+    "uuid": "^3.3.3",
+    "snyk": "^1.316.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
