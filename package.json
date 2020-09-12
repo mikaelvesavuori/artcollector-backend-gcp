@@ -27,7 +27,7 @@
     "firebase-tools": "^7.12.1",
     "graphql": "^14.5.8",
     "graphql-type-json": "^0.3.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "serverless-google-cloudfunctions": "^2.4.3",
     "uuid": "^3.3.3",
     "snyk": "^1.316.2"
